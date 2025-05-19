@@ -108,7 +108,9 @@ To create a docker container follow the next steps under `baby-tools-shop/babysh
 ```
 # settings.py
 
-    ALLOWED_HOSTS = ['ip_server_address', 'localhost', '127.0.0.1']
+    -ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+
+    +ALLOWED_HOSTS = ['<ip_server_address>', 'localhost', '127.0.0.1']
 ```
 2. Loging to your V-Server
 ```

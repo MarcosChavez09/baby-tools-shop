@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 FROM python:3.12-slim
 
-# Set environment variables
+# Set environment variables to optimize Python
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
@@ -28,9 +28,6 @@ USER appuser
 
 # Expose port
 EXPOSE 8025
-
-# Collect static files (optional, if using staticfiles)
-# RUN python manage.py collectstatic --noinput
 
 # Entrypoint: run migrations and start server
 CMD ["sh", "-c", "python manage.py migrate && gunicorn babyshop.wsgi:application --bind 0.0.0.0:8025"]
