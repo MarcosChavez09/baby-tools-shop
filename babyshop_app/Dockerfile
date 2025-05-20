@@ -21,6 +21,9 @@ RUN pip install --upgrade pip \
 # Copy project
 COPY . .
 
+# Collect static files
+RUN python manage.py collectstatic --noinput
+
 # Create a non-root user
 RUN adduser --disabled-password --no-create-home appuser \
     && chown -R appuser:appuser /app
