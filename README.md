@@ -61,7 +61,7 @@ Activate your venv:
 source .venv/bin/activate
 ```
 
-FYI: To deactivate your venv, just type `deactivate` in the command line.
+> **_NOTE:_** To deactivate your venv, just type `deactivate` in the command line.
 
 Install dependencies:
 ```
