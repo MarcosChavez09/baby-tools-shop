@@ -118,7 +118,7 @@ To create a docker container follow the next steps under `baby-tools-shop/babysh
 ```
 3. Create a new folder in your `home` directory and clone this repository there
 ```
-      mkdir -p ~/projects
+    mkdir -p ~/projects
     cd ~/projects
     git clone git@github.com:MarcosChavez09/baby-tools-shop.git
 ```
