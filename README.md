@@ -41,7 +41,7 @@ Open your command line and type the following commands:
 After cloning the repository, navigate to:
 
 ```
-    cd baby-tools-shop/babyshop_app
+cd baby-tools-shop/babyshop_app
 ```
 
 Create you virtual environment:
