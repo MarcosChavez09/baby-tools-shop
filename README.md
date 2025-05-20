@@ -139,7 +139,7 @@ Note: You will need the `<container_id_or_name>` to create a superuser. Type `do
     docker exec -it <container_id_or_name> python manage.py createsuperuser
 ```
 
-When prompted, provide your `<user_mname>`, `<user_email>` and a `<password>`.
+When prompted, provide your `<user_name>`, `<user_email>` and a `<password>`.
 
 After successfully adding your superuser, open your browser at http://localhost:8025/admin. You will be redirected to the admin page. Log in with the given information.
 
