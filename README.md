@@ -58,7 +58,7 @@ Create you virtual environment:
 
 Activate your venv:
 ```
-    source .venv/bin/activate
+source .venv/bin/activate
 ```
 
 FYI: To deactivate your venv, just type `deactivate` in the command line.
