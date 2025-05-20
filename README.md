@@ -27,14 +27,12 @@ Clone this repository to your local machine and follow the README.md instruction
 
 Open your command line and type the following commands:
 
+With SSH configured (if SSH Keys are provided to GitHub)
 ```
-# With SSH configured (if SSH Keys are provided to GitHub)
-
     git clone git@github.com:MarcosChavez09/baby-tools-shop.git
 ```
+Classic HTTPS (if no SSH Keys are provided to GitHub)
 ```
-# Classic HTTPS (if no SSH Keys are provided to GitHub)
-
     git clone https://github.com/MarcosChavez09/baby-tools-shop.git
 ```
 After cloning the repository, navigate to:
@@ -45,14 +43,12 @@ cd baby-tools-shop/babyshop_app
 
 Create you virtual environment:
 
+On macOS
 ```
-# /baby-tools-shop/babyshop_app
-
-# On macOS
     python3 -m venv .venv
 ```
+On Linux
 ```
-# On Linux
     python -m venv .venv
 ```
 
@@ -68,12 +64,13 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 Run migrations:
+On macOS
 ```
-# On macOS
    python3 manage.py migrate
-
-# On Linux
-   python manage.py migrate
+```
+On Linux
+```
+    python manage.py migrate
 ```
 Start the development server:
 ```
