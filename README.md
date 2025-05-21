@@ -100,7 +100,7 @@ To create a docker container follow the next steps under `baby-tools-shop/babysh
 
 ### Deploy the app to a V-Server
 
-1. Loging to your V-Server
+1. Login to your V-Server
 ```
     ssh -i ~/.ssh/<name_of_your_key25519> <your_user_name>@<ip_server_address>
 ```
