@@ -33,7 +33,7 @@ With SSH configured (if SSH Keys are provided to GitHub)
 ```
 Classic HTTPS (if no SSH Keys are provided to GitHub)
 ```
-    git clone https://github.com/MarcosChavez09/baby-tools-shop.git
+git clone https://github.com/MarcosChavez09/baby-tools-shop.git
 ```
 After cloning the repository, navigate to:
 
