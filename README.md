@@ -29,7 +29,7 @@ Open your command line and type the following commands:
 
 With SSH configured (if SSH Keys are provided to GitHub)
 ```
-    git clone git@github.com:MarcosChavez09/baby-tools-shop.git
+git clone git@github.com:MarcosChavez09/baby-tools-shop.git
 ```
 Classic HTTPS (if no SSH Keys are provided to GitHub)
 ```
